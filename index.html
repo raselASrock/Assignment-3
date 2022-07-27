@@ -34,10 +34,10 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#courses">Courses</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Mentors</a>
+                    <a class="nav-link" href="#mentors">Mentors</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Discount</a>
@@ -49,7 +49,9 @@
                     <a class="nav-link" href=""><button type="button" class="btn btn-outline-primary me-2">Register</button></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href=""><button type="button" class="btn btn-primary">Sign-up</button></a>
+                    <a class="nav-link" href="#exampleModal"><button type="button" class="btn btn-primary text-light me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Sign In <i class="fa-solid fa-right-to-bracket"></i>
+                    </button></a>
                   </li>
                 </ul>
               </div>
@@ -100,7 +102,7 @@
                         Online classes tend to be smaller than conventional class size. Most of the time, online learning platforms only allow one student at a time, and in almost all cases, this allows for greater interaction and more feedback between you and your tutor.
                         
                         There’s often access to very diverse material such as videos, photos, and eBooks online as well, and tutors can also integrate other formats like forums or discussions to improve their lessons. And this extra content is available at any moment from anywhere, which will </p>
-                        <button type="button" class="btn btn-primary"><h4>Get Started</h4></button>
+                        <button type="button" class="btn btn-primary"><h4>Get Started </h4></button>
                     </div>
                   </div>
                 </div>
@@ -134,7 +136,7 @@
         <section>
             <div class="container">
                 <div class="text-center">
-                    <h1 class="fw-bold my-5">Discover Our Popular Courses.</h1>
+                    <h1 class="fw-bold my-5" id="courses">Discover Our Popular Courses.</h1>
                     <p>We’ve mentioned before how flexibility can help you to set your own study pace. But online education is also flexible for each student’s individual requirements and level of ability. Online education enables the teacher and the student to set their own learning pace, and there’s the added flexibility of setting a schedule that fits everyone’s agenda. As a result, using an online educational platform allows for a better balance of work and studies, so there’s no need to give anything up. Studying online teaches you vital time management skills, which makes finding a good work-study balance.
                     Online classes tend to be smaller than conventional class size. Most of the time, online learning platforms only allow one student at a time, and in almost all cases, this allows for greater interaction and more feedback between you and your tutor.</p>
                 </div>
@@ -243,13 +245,71 @@
                         </div>
                     </div>
                 </div>
-                <div class="courses text-center"><button class="btn btn-primary my-4 fw-bold">View All</button></div>
+                <div class="courses text-center"><button class="btn btn-primary my-4 fw-bold">View All <i class="fa-solid fa-arrow-right"></i></button></div>
             </section>
             <!--******************************
-            ********* Courses Item Start************** -->
+            ********* Courses Item End************** -->
+              <section>
+                <div class="container bg-primary bg-opacity-75">
+                  <div class="row">
+                    <div class="d-flex justify-content-evenly align-items-center">
+                      <div>
+                        <h1 class="text-light fs-1 my-4">Ready To Join?</h1>
+                        <p class="text-light my-4 " >We believe a goodg sharpens our ability to connect with audi, world-class designers, and writers. <br> We are skilled search engine. We are very responsive. </p>
+                      </div>
+                      <div>
+                        <button type="button" class="btn btn-light fw-bold text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          Register Now
+                        </button>
+                        <!-- Modal  -->
+                        <div class="modal modal-signin" tabindex="-1" role="dialog" id="exampleModal">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content rounded-4 shadow">
+                              <div class="modal-header p-5 pb-4 border-bottom-0">
+                                <!-- <h5 class="modal-title">Modal title</h5> -->
+                                <h2 class="fw-bold mb-0">Register for free</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                        
+                              <div class="modal-body p-5 pt-0">
+                                <form class="">
+                                  <div class="form-floating mb-3">
+                                    <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                                    <label for="floatingInput">Email address</label>
+                                  </div>
+                                  <div class="form-floating mb-3">
+                                    <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                                    <label for="floatingPassword">Password</label>
+                                  </div>
+                                  <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Sign up</button>
+                                  <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+                                  <hr class="my-4">
+                                  <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+                                  <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-3" type="submit">
+                                    <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"/></svg>
+                                    Sign up with Twitter
+                                  </button>
+                                  <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+                                    <svg class="bi me-1" width="16" height="16"><use xlink:href="#facebook"/></svg>
+                                    Sign up with Facebook
+                                  </button>
+                                  <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+                                    <svg class="bi me-1" width="16" height="16"><use xlink:href="#github"/></svg>
+                                    Sign up with GitHub
+                                  </button>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
             <section>
               <div class="container">
-                <h1 class="fw-bold my-4">Meet Our  SuccessFul Mentors</h1>
+                <h1 class="fw-bold my-4" id="mentors">Meet Our  SuccessFul Mentors</h1>
               <!--******************************
             ********* MENTOR Item Start************** -->
                 <div class="row">
@@ -257,8 +317,8 @@
                     <div class="card shadow my-4" style="width: 18rem;">
                       <img src="images/student/student-1.png" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title fw-bold">John Smith</h5>
-                        <p class="card-text text-muted">Software Engineer</p>
+                        <h5 class="card-title fw-bold">John Smith <i class="fa-solid fa-circle-check text-primary"></i></h5>
+                        <p class="card-text text-muted">Software Engineer <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star-half-stroke text-warning"></i></p>
                         <a href="#" class="btn btn-primary fw-bold">Contract</a>
                       </div>
                     </div>
@@ -267,8 +327,8 @@
                     <div class="card shadow my-4" style="width: 18rem;">
                       <img src="images/student/student-2.png" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title fw-bold">Emily Pitar</h5>
-                        <p class="card-text text-muted">Graphics Designer</p>
+                        <h5 class="card-title fw-bold">Emily Pitar <i class="fa-solid fa-circle-check text-primary"></i></h5>
+                        <p class="card-text text-muted">Graphics Designer <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star-half-stroke text-warning"></i></p>
                         <a href="#" class="btn btn-primary fw-bold">Contract</a>
                       </div>
                     </div>
@@ -277,8 +337,8 @@
                     <div class="card shadow my-4" style="width: 18rem;">
                       <img src="images/student/student-3.png" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title fw-bold">William Blake</h5>
-                        <p class="card-text text-muted">Web Designer</p>
+                        <h5 class="card-title fw-bold">William Blake <i class="fa-solid fa-circle-check text-primary"></i></h5>
+                        <p class="card-text text-muted">Web Designer <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star-half-stroke text-warning"></i></p>
                         <a href="#" class="btn btn-primary fw-bold">Contract</a>
                       </div>
                     </div>
@@ -287,14 +347,14 @@
                     <div class="card shadow my-4" style="width: 18rem;">
                       <img src="images/student/student-4.png" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title fw-bold">Marry Siliva</h5>
-                        <p class="card-text text-muted">UI/UX Designer</p>
-                        <a href="#" class="btn btn-primary fw-bold">Contract</a>
+                        <h5 class="card-title fw-bold"> Marry Siliva <i class="fa-solid fa-circle-check text-primary"></i></h5>
+                        <p class="card-text text-muted">UI/UX Designer <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star-half-stroke text-warning"></i></p>
+                        <a href="#" class="btn btn-primary fw-bold"> Contract</a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="courses text-center"><button class="btn btn-primary my-4 fw-bold">See More</button></div>
+                <div class="courses text-center"><button class="btn btn-primary my-4 fw-bold">See More <i class="fa-solid fa-arrow-right"></i></button></div>
               </div>
             </section>
             <!--******************************
@@ -389,23 +449,21 @@
 <!-- *****************************************************************
     **********************MAIN SECTION ENDS HERE***********************
     *********************************************************************** -->
+
+
+
+
 <!-- *****************************************************************
     **********************FOOTER SECTION STARTS HERE***********************
     *********************************************************************** -->
-    <footer class="bg-dark width:">
+    <footer class="bg-dark">
       <div class="text-center text-light">
         <h1 class="my-4 fw-bold fs-1">Mentor <span class="text-success">Works</span></h1>
         <h4>Office-13 Raibazar, Bashundhara.</h4>
         <h4>South Corner OF PetroLife</h4>
-        <p class="my-4"><i class="fa-brands fa-facebook fs-1 px-1 mx-4"></i> <i class="fa-brands fa-twitter fs-1 px-1 mx-4"></i><i class="fa-brands fa-linkedin fs-1 px-1 mx-4"></i><i class="fa-solid fa-paper-plane fs-1 px-1 my-4 mx-4"></i></p>
+        <p class="my-4"><i class="fa-brands fa-facebook fs-1 px-1 mx-3"></i> <i class="fa-brands fa-twitter fs-1 px-1 mx-3"></i><i class="fa-brands fa-linkedin fs-1 px-1 mx-3"></i><i class="fa-solid fa-paper-plane fs-1 px-1 my-4 mx-3"></i></p>
       </div>
     </footer>
-      
-        
-        
-      
-
-   
 <!-- *****************************************************************
     **********************FOOTER SECTION ENDS HERE***********************
     *********************************************************************** -->
